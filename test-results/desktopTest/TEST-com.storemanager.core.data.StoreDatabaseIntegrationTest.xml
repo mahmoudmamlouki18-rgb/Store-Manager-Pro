@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StoreDatabaseIntegrationTest[desktop]" tests="42" skipped="0" failures="0" errors="0" timestamp="2026-11-06T15:42:04.149Z" hostname="localhost" time="122.496">
+  <properties/>
+  <testcase name="test07_checkConstraint_rejectsReservedExceedingOnHand[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.535"/>
+  <testcase name="test24_sqliteRuntimeVersion_loggedAndVerified[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.946"/>
+  <testcase name="test20_existingDb_rejectsIncompleteSchemaAndPreservesUserDataOnDisk[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.876"/>
+  <testcase name="test26b_concurrentInitialization_inJvmThreadLocking[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="4.276"/>
+  <testcase name="test08_seedBaselineAndQueriesExecution[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.885"/>
+  <testcase name="test16_atomicity_triggerFailureLeavesNoPartialDatabase[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.492"/>
+  <testcase name="test28d_walCheckpointFailure_stagingWalSidecarNotEmpty_abortsPublication[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.601"/>
+  <testcase name="test25_ed25519SignatureVerification_nativeJdkCrypto[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.934"/>
+  <testcase name="test28a_walCheckpointFailure_busyNonZero_abortsPublicationAndPreservesTarget[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.466"/>
+  <testcase name="test28g_shmSidecarDeletionFailure_atActualDeletionOperation_abortsPublicationAndPreservesTarget[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.604"/>
+  <testcase name="test31_exactSchemaValidation_alteredCheckConstraint_rejectsDatabaseAndPreservesData[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.225"/>
+  <testcase name="test01_createDatabaseFromScratch_has55Tables[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.026"/>
+  <testcase name="test15_runFullReferenceVerificationMatrix_onActualDatabaseFile[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.272"/>
+  <testcase name="test11_auditLogsImmutability_rejectsUpdateAndDelete[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.052"/>
+  <testcase name="test17_atomicity_recoveryAfterFailureCreatesCleanDatabase[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="4.572"/>
+  <testcase name="test20b_existingDb_rejectsSubstitutedSchemaObjectsWhilePreservingCountsAndUserData[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.457"/>
+  <testcase name="test26_concurrentInitialization_trueCrossProcessExclusiveLock[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="8.204"/>
+  <testcase name="test28f_walSidecarDeletionFailure_atActualDeletionOperation_abortsPublicationAndPreservesTarget[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="4.155"/>
+  <testcase name="test18_existingDb_reopeningDoesNotDuplicateTriggersOrRecreateSchema[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.299"/>
+  <testcase name="test19_existingDb_rejectsInvalidUserVersion[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.295"/>
+  <testcase name="test23_connectionPragmas_allFourReappliedOnReopenedConnection[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.933"/>
+  <testcase name="test03_hasAll186CanonicalTriggers[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.057"/>
+  <testcase name="test22_foreignKeyEnforcement_rejectsOrphanReference[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.017"/>
+  <testcase name="test32_exactSchemaValidation_alteredForeignKeyOrOnDelete_rejectsDatabaseAndPreservesData[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.272"/>
+  <testcase name="test28c_walCheckpoint_success_publishesCleanDatabaseWithoutSidecars[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.933"/>
+  <testcase name="test09_productNameOnlyMinimalInsert_autoDefaultsUomAndCreatesStockItem[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.826"/>
+  <testcase name="test29_comparativeBenchmark_normalVsFullDurability_productInventoryWriteMicrobenchmark[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="7.187"/>
+  <testcase name="test06_userVersionIsSetToOne[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.803"/>
+  <testcase name="test28e_stagingCleanupAfterFailure_cleansStagingAndSidecarsCompletely[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.408"/>
+  <testcase name="test09b_productWithMinimalData_inboundMovementInitializesInventoryBalance[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.812"/>
+  <testcase name="test20c_existingDb_rejectsAlteredTableConstraintWhilePreservingCountsAndUserData[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.936"/>
+  <testcase name="test21_connectionPragmas_actualValuesEnforced[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.837"/>
+  <testcase name="test30_storeDatabaseManager_normalLifecycleAndSafeCleanupOnFailure[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="4.385"/>
+  <testcase name="test12_transactionRollback_cleansUpAtomicallyOnFailure[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.783"/>
+  <testcase name="test13_singleStorePerTenant_partialUniqueIndex[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.837"/>
+  <testcase name="test14_oneOpenShiftPerCashRegister_partialUniqueIndex[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.915"/>
+  <testcase name="test02_hasAll107ExplicitIndexes[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.835"/>
+  <testcase name="test05_pragmaIntegrityCheck_returnsOk[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.906"/>
+  <testcase name="test04_pragmaForeignKeyCheck_returnsZeroErrors[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="1.986"/>
+  <testcase name="test27_atomicMove_neverReplacesExistingTargetDatabase[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="5.428"/>
+  <testcase name="test10_databaseReopen_preservesDataWithoutRecreatingSchema[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="2.638"/>
+  <testcase name="test28b_walCheckpointFailure_checkpointedLessThanLog_abortsPublicationAndPreservesTarget[desktop]" classname="com.storemanager.core.data.StoreDatabaseIntegrationTest" time="3.571"/>
+  <system-out><![CDATA[=== DESKTOP SQLITE RUNTIME VERSION: 3.53.4 ===
+=== NATIVE ED25519 CRYPTO VERIFICATION EXECUTING (JDK 21) ===
+Python Verification Suite Output on SQLDelight DB:
+Attached to SQLDelight generated database: /tmp/test_store_master_8293115897013073028.db
+SQLite runtime: 3.40.1
+Tables: 55
+Triggers: 186
+Indexes (explicit): 107
+PASS    T01 schema creates 55 tables and v1 user_version: Accepted as expected
+PASS    T02 safe seed and test fixtures pass foreign_key_check: Accepted as expected
+PASS    T03 SQLite integrity_check returns ok: Accepted as expected
+PASS    T04 product name-only insert creates UOM default and StockItem: Accepted as expected
+PASS    T05 negative movement quantity is rejected: Rejected: MOVEMENT_QUANTITY_MUST_BE_POSITIVE
+PASS    T06 inbound movement updates on-hand automatically: Accepted as expected
+PASS    T06b movement fixed-point total must match quantity times unit cost: Rejected: MOVEMENT_TOTAL_COST_MISMATCH
+PASS    T07 quota issue reserves available stock: Accepted as expected
+PASS    T07b quota consumed counter cannot be edited outside deduction rows: Rejected: QUOTA_CONSUMED_COUNTER_MUST_MATCH_DEDUCTIONS
+PASS    T08 outbound movement is blocked below reserved amount: Rejected: INSUFFICIENT_AVAILABLE_STOCK
+PASS    T09 stale inventory count cannot be posted after stock changed: Rejected: ADJUSTMENT_STOCK_CHANGED_AFTER_COUNT
+PASS    T09b posted inventory adjustment generates immutable movement and updates balance: Accepted as expected
+PASS    T09 duplicate simple StockItem is rejected: Rejected: UNIQUE constraint failed: stock_items.product_id
+PASS    T10 variant from another product is rejected: Rejected: VARIANT_DOES_NOT_BELONG_TO_SPECIFIED_PRODUCT
+PASS    T11 duplicate barcode across product and variant is rejected: Rejected: BARCODE_ALREADY_IN_USE
+PASS    T12 quota warehouse must match sale warehouse: Rejected: QUOTA_WAREHOUSE_MISMATCH
+PASS    T13 quota stock item must match sale line: Rejected: QUOTA_STOCK_ITEM_MISMATCH
+PASS    T14 cumulative quota deduction cannot exceed sale-line quantity: Rejected: QUOTA_DEDUCTION_EXCEEDS_SALE_LINE
+PASS    T15 deleting a DRAFT sale restores quota consumption and reservation: Accepted as expected
+PASS    T15b cancelling a DRAFT sale releases quota and reservation: Accepted as expected
+PASS    T15c device sequence cannot be advanced without completed sale: Rejected: DEVICE_SEQUENCE_MUST_MATCH_COMPLETED_SALE
+PASS    T16 completed sale consumes quota, updates stock, sequence and customer ledger: Accepted as expected
+PASS    T17 completed sale cannot be edited to another tenant/store: Rejected: COMPLETED_SALE_CORE_IMMUTABLE
+PASS    T18 sale seq replay with new sale id but old sequence is rejected: Rejected: DEVICE_SEQUENCE_NOT_MONOTONIC
+PASS    T20 negative payment allocation is rejected before posting: Rejected: ALLOCATION_MUST_BE_POSITIVE
+PASS    T19a DRAFT payment allocation does not affect debt before posting: Accepted as expected
+PASS    T19 customer payment allocation reduces debt and updates customer ledger: Accepted as expected
+PASS    T21 supplier payment cannot be allocated to customer sale: Rejected: SALE_REQUIRES_CUSTOMER_PAYMENT
+PASS    T22 payment cannot reference nonexistent polymorphic party: Rejected: PAYMENT_CUSTOMER_NOT_FOUND
+PASS    T23a reversal cannot post before matching allocations are complete: Rejected: REVERSAL_ALLOCATIONS_MUST_EQUAL_PAYMENT
+PASS    T23 full payment reversal restores invoice debt and customer balance: Accepted as expected
+PASS    T24 payment records are immutable: Rejected: PAYMENT_CORE_FIELDS_IMMUTABLE
+PASS    T25 receipt must use stock item from the ordered purchase line: Rejected: RECEIPT_STOCK_ITEM_MISMATCH
+PASS    T26 receipt posts inventory only after complete with exact items: Accepted as expected
+PASS    T27 receipt cannot exceed ordered quantity cumulatively: Rejected: RECEIPT_OVER_ORDER
+PASS    T27b empty receipt cannot be completed: Rejected: EMPTY_RECEIPT_CANNOT_COMPLETE
+PASS    T27c cancelling draft receipt restores received counter and does not post stock: Accepted as expected
+PASS    T28 purchase return must use exact source StockItem: Rejected: PURCHASE_RETURN_STOCK_ITEM_MISMATCH
+PASS    T29 purchase return cannot exceed actually received quantity: Rejected: PURCHASE_RETURN_OVER_RECEIVED
+PASS    T29b purchase return posts stock movement and supplier ledger on completion: Accepted as expected
+PASS    T29c cancelling draft purchase return restores return counter: Accepted as expected
+PASS    T30 completed receipt item cannot be deleted: Rejected: NON_DRAFT_RECEIPT_LINES_IMMUTABLE
+PASS    T31 sale return cannot substitute another stock item: Rejected: SALE_RETURN_STOCK_ITEM_MISMATCH
+PASS    T32 credit return adds stock and reduces customer receivable: Accepted as expected
+PASS    T33 completed sale return cannot be edited/deleted: Rejected: NON_DRAFT_SALE_RETURN_IMMUTABLE
+PASS    T33b cancelling draft sale return restores returned quantity: Accepted as expected
+PASS    T34 opening float initializes expected cash: Accepted as expected
+PASS    T35 second open shift for same register is rejected: Rejected: UNIQUE constraint failed: cash_shifts.cash_register_id
+PASS    T36 cash payment and expense update expected cash automatically: Accepted as expected
+PASS    T37 duplicate cash event source is rejected: Rejected: UNIQUE constraint failed: cash_movements.source_event_id
+PASS    T38 cash movement cannot be posted to a closed shift: Rejected: CASH_SHIFT_NOT_OPEN
+PASS    T39 second store under same tenant violates single-store license: Rejected: UNIQUE constraint failed: stores.tenant_id
+PASS    T40 document sequence cannot use missing fiscal year: Rejected: DOCUMENT_SEQUENCE_REQUIRES_OPEN_FISCAL_YEAR
+PASS    T41 ledger rejects nonexistent Customer party: Rejected: LEDGER_CUSTOMER_NOT_FOUND
+PASS    T42 finalized idempotency record cannot change request hash: Rejected: IDEMPOTENCY_KEY_FIELDS_IMMUTABLE
+PASS    T43 idempotency key cannot be deleted: Rejected: IDEMPOTENCY_RECORD_WITHIN_RETENTION_WINDOW
+PASS    T43b finalized idempotency can be purged after 30-day retention: Accepted as expected
+PASS    T44 audit log cannot be altered: Rejected: AUDIT_LOGS_ARE_IMMUTABLE
+NOT RUN T45 Ed25519 signature verifies and tampering is rejected (Python crypto smoke test): cryptography library not installed on Python host; test explicitly recorded as NOT RUN
+SUMMARY: 58 PASS / 0 FAIL / 1 NOT RUN / 59 total
+
+Cross-Process 1 Output:
+PROCESS_RESULT:SUCCESS:tables=55,indexes=107,triggers=186
+
+Cross-Process 2 Output:
+PROCESS_RESULT:SUCCESS:tables=55,indexes=107,triggers=186
+
+=== PRODUCT & INVENTORY WRITE MICROBENCHMARK RESULTS (50 writes) ===
+Note: Measures isolated product & inventory movement insertions under SQLite WAL mode
+synchronous = NORMAL: 944 ms
+synchronous = FULL:   883 ms
+Difference: +-61 ms (Ratio FULL/NORMAL: 0.94x)
+===============================================================================
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

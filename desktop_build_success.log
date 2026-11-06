@@ -1,0 +1,74 @@
+
+> Configure project :app
+WARNING: The option setting 'android.experimental.disableCompileSdkChecks=true' is experimental.
+The current default is 'false'.
+
+> Task :apps:desktopApp:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :apps:desktopApp:convertXmlValueResourcesForMain NO-SOURCE
+> Task :apps:desktopApp:copyNonXmlValueResourcesForMain NO-SOURCE
+> Task :apps:desktopApp:prepareComposeResourcesTaskForMain NO-SOURCE
+> Task :apps:desktopApp:generateResourceAccessorsForMain SKIPPED
+> Task :apps:desktopApp:generateActualResourceCollectorsForMain SKIPPED
+> Task :apps:desktopApp:generateComposeResClass SKIPPED
+> Task :shared:domain:kmpPartiallyResolvedDependenciesChecker
+> Task :shared:domain:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :apps:desktopApp:assembleMainResources UP-TO-DATE
+> Task :apps:desktopApp:processResources UP-TO-DATE
+> Task :apps:desktopApp:convertXmlValueResourcesForTest NO-SOURCE
+> Task :apps:desktopApp:copyNonXmlValueResourcesForTest NO-SOURCE
+> Task :apps:desktopApp:prepareComposeResourcesTaskForTest NO-SOURCE
+> Task :apps:desktopApp:generateResourceAccessorsForTest SKIPPED
+> Task :apps:desktopApp:assembleTestResources UP-TO-DATE
+> Task :apps:desktopApp:processTestResources UP-TO-DATE
+> Task :shared:domain:compileKotlinDesktop UP-TO-DATE
+> Task :shared:domain:compileDesktopMainJava NO-SOURCE
+> Task :shared:domain:desktopProcessResources NO-SOURCE
+> Task :shared:domain:processDesktopMainResources SKIPPED
+> Task :shared:domain:desktopMainClasses UP-TO-DATE
+> Task :shared:domain:desktopJar UP-TO-DATE
+> Task :shared:design-system:checkDesktopMainComposeLibrariesCompatibility
+> Task :shared:design-system:kmpPartiallyResolvedDependenciesChecker
+> Task :shared:design-system:checkKotlinGradlePluginConfigurationErrors SKIPPED
+> Task :shared:design-system:convertXmlValueResourcesForCommonMain NO-SOURCE
+> Task :shared:design-system:copyNonXmlValueResourcesForCommonMain NO-SOURCE
+> Task :shared:design-system:prepareComposeResourcesTaskForCommonMain NO-SOURCE
+> Task :shared:design-system:generateResourceAccessorsForCommonMain NO-SOURCE
+> Task :shared:design-system:convertXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :shared:design-system:copyNonXmlValueResourcesForDesktopMain NO-SOURCE
+> Task :shared:design-system:prepareComposeResourcesTaskForDesktopMain NO-SOURCE
+> Task :shared:design-system:generateResourceAccessorsForDesktopMain NO-SOURCE
+> Task :shared:design-system:generateActualResourceCollectorsForDesktopMain UP-TO-DATE
+> Task :shared:design-system:generateComposeResClass UP-TO-DATE
+> Task :shared:design-system:generateExpectResourceCollectorsForCommonMain UP-TO-DATE
+> Task :shared:design-system:compileKotlinDesktop UP-TO-DATE
+> Task :shared:design-system:compileDesktopMainJava NO-SOURCE
+> Task :shared:design-system:assembleDesktopMainResources UP-TO-DATE
+> Task :shared:design-system:desktopProcessResources UP-TO-DATE
+> Task :shared:design-system:processDesktopMainResources SKIPPED
+> Task :shared:design-system:desktopMainClasses UP-TO-DATE
+> Task :shared:design-system:desktopJar UP-TO-DATE
+> Task :apps:desktopApp:compileKotlin UP-TO-DATE
+> Task :apps:desktopApp:compileJava NO-SOURCE
+> Task :apps:desktopApp:classes UP-TO-DATE
+> Task :apps:desktopApp:jar UP-TO-DATE
+> Task :apps:desktopApp:startScripts UP-TO-DATE
+> Task :apps:desktopApp:distTar UP-TO-DATE
+> Task :apps:desktopApp:distZip UP-TO-DATE
+> Task :apps:desktopApp:assemble UP-TO-DATE
+> Task :apps:desktopApp:compileTestKotlin NO-SOURCE
+> Task :apps:desktopApp:compileTestJava NO-SOURCE
+> Task :apps:desktopApp:testClasses UP-TO-DATE
+> Task :apps:desktopApp:test NO-SOURCE
+> Task :apps:desktopApp:check UP-TO-DATE
+> Task :apps:desktopApp:build UP-TO-DATE
+
+[Incubating] Problems report is available at: file:///app/applet/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.7.0/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 2s
+21 actionable tasks: 3 executed, 18 up-to-date
